@@ -13,14 +13,14 @@ body {
 	height: 1000px;
 	color: floralwhite;
 	text-align: center;
+	background-repeat: no-repeat;
 }
 
 
 #navbar{
-	color: blueviolet;
 	font-weight: bold;
 	font-size: xx-large;
-	background-color: rgba(237, 247, 247,0.1);
+	background-color: rgba(237, 247, 247,0.3);
 }
 
 /*Design to all title*/
@@ -32,6 +32,11 @@ body {
 /*margin to all section*/
 section{
 	margin:  0px 50px;
+}
+
+/*Footer*/
+footer{
+	margin-top: 25px;
 }
 
 /*For google map*/
