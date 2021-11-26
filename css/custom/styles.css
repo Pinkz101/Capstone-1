@@ -16,7 +16,7 @@ body {
 
 /*jumbotron background image*/
 .jumbotron{
-	background-image: url('file:///C:/Users/pinkz/Documents/b-146/csp-1/assets/images/full_galaxy.jpg');
+	background-image: url('assets/images/full_galaxy.jpg');
 	height: 1000px;
 	color: floralwhite;
 	text-align: center;
