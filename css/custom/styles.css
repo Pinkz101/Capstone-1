@@ -16,7 +16,7 @@ body {
 
 /*jumbotron background image*/
 .jumbotron{
-	background-image: url('assets/images/full_galaxy.jpg');
+	background-image: url('assets/images/reduce_galaxy.jpg');
 	height: 1000px;
 	color: floralwhite;
 	text-align: center;
@@ -38,7 +38,7 @@ body {
 
 /*margin to all section*/
 section{
-	margin:  0px 50px;
+	margin:  20px 50px;
 }
 
 /*Footer*/
@@ -47,8 +47,11 @@ footer{
 }
 
 /*Form*/
-form{
-	padding: 20px;
+
+input, select {
+            width: 200px;
+            height: 25px;
+            margin: 2px;
 }
 
 /*For google map*/
