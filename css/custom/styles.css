@@ -46,6 +46,11 @@ footer{
 	margin-top: 25px;
 }
 
+/*Form*/
+form{
+	padding: 20px;
+}
+
 /*For google map*/
 .map-container-2{
 overflow:hidden;
