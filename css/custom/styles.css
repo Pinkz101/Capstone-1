@@ -14,7 +14,7 @@ body {
     overflow-x: hidden !important;
 }
 
-/*jumbotron background image*/
+/*jumbotron background image
 .jumbotron{
 	background-image: url('assets/images/Balloon.jpg');
 	height: 1000px;
@@ -22,7 +22,11 @@ body {
 	text-align: center;
 	background-repeat: no-repeat;
 }
+*/
 
+.wrapper{
+	height: 1000px;
+}
 
 #navbar{
 	font-weight: bold;
