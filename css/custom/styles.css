@@ -1,7 +1,14 @@
+/*Google Fonts*/
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 /*Avoiding to scroll*/
 body {
     overflow-x: hidden !important;
 }
+
 .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
