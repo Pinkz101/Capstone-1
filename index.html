@@ -17,59 +17,62 @@
 </head>
 <body>
 <header>
+
+		<div class="bg-image justify-content-center align-items-center" 
+		  	 style="background-image: url('assets/images/full_galaxy.jpg');">
+			<!--Navbar Section-->
+				<section id="navbar">
+					<nav class="navbar navbar-expand-lg text-white">
+					  <div class="container-fluid">
+					    <a class="navbar disabled text-white" href="#">Resume</a>
+					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					      <span class="navbar-toggler-icon"></span>
+					    </button>
+					    <div class="collapse navbar-collapse" id="navbarNav">
+					      <ul class="navbar-nav ms-auto">
+					        <li class="nav-item">
+					          <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link text-white" href="#AboutMe">About</a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link text-white" href="#Projects">Projects</a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link text-white" href="#Contacts">Contact</a>
+					        </li>
+					      </ul>
+					    </div>
+					  </div>
+					</nav>
+				</section>
+				<!--End of navbar section-->
+		</div>
+				
+
 	<!-- Start Jumbotron -->
 	<div class="jumbotron">
-			<!--Navbar Section-->
-			<section id="navbar">
-				<nav class="navbar navbar-expand-lg">
-				  <div class="container-fluid">
-				    <a class="navbar disabled" href="#">Portfolio</a>
-				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				      <span class="navbar-toggler-icon"></span>
-				    </button>
-				    <div class="collapse navbar-collapse" id="navbarNav">
-				      <ul class="navbar-nav ms-auto">
-				        <li class="nav-item">
-				          <a class="nav-link" aria-current="page" href="#">Home</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="#AboutMe">About</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="#Projects">Projects</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="#Contacts">Contact</a>
-				        </li>
-				      </ul>
-				    </div>
-				  </div>
-				</nav>
-			</section>
-			<!--End of navbar section-->
-
-			<div 
-			class="bg-image d-flex justify-content-center align-items-center"
-  			style="background-image: url('assets/images/full_galaxy.jpg');
-    				height: 1000px;">
-    			<div>
-    				<div class="text-center h-1000">
-		    			<h1 class="text-white">Hey there! I'm Pinky</h1>
-					    <h1 class="text-white">Web Developer</h1>
-					    <h4 class="text-white">Let's explore the galaxy of imagination</h4>
-					    <a class="btn btn-primary" href="" role="button">View my Projects</a>
-    				</div>
-    			</div>
-	 		</div>
+		<div 
+			class="bg-image justify-content-center align-items-center" 
+		  	style="background-image: url('assets/images/Galaxy.jpg');
+		    		height: 100vh;">	
+		
+			    	<div class="justify-content-center align-items-center">
+					    <h1 class="text-white">Hey there! I'm Pinky</h1>
+						<h1 class="text-white">Web Developer</h1>
+						<h4 class="text-white">Let's explore the galaxy of imagination</h4>
+						<a class="btn btn-primary" href="" role="button">View my Projects</a>
+			    	</div>
+		</div>
 	</div>	
 	 
-	
   <!--End Jumbotron -->
 </header>
 	
 <br>
 <hr>
-	<!--Hero Banner Section(About Me)-->
+	
 	<section id="hero-banner">
 		<div id="AboutMe">
 			<h1 class="text-center">About Me</h1>
@@ -134,8 +137,7 @@
 	<section>
 		<div id="Projects">
 			<h1 class="text-center">My Projects</h1>
-			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</div>
 		
 		
@@ -192,7 +194,7 @@
 	<section>
 		<div id="Contacts">
 			<h1 class="text-center">Contact Me</h1>
-			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+			<p class="text-center">If you would like to contact me, kindly fill up the form below. Thanks.</p>
 		</div>
 
 		<div class="container">
@@ -214,7 +216,7 @@
 					    </div>
 					    <div class="form-text">
 					    	<label for="textarea" class="form-label"></label>
-					    	<textarea id="textarea" name="textarea" rows="4"> Message
+					    	<textarea id="textarea" name="textarea" rows="4" cols="60"> Message
 			 				</textarea>
 					    </div>
 					    <button type="submit" class="btn btn-primary">Submit</button>

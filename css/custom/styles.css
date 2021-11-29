@@ -14,24 +14,30 @@ body {
     overflow-x: hidden !important;
 }
 
-/*jumbotron background image
+/*jumbotron background image*/
 .jumbotron{
-	background-image: url('assets/images/Balloon.jpg');
-	height: 1000px;
 	color: floralwhite;
 	text-align: center;
 	background-repeat: no-repeat;
 }
-*/
 
-.wrapper{
-	height: 1000px;
+.bg-image{
+	background-repeat: no-repeat;
 }
+
 
 #navbar{
 	font-weight: bold;
 	font-size: xx-large;
-	background-color: rgba(237, 247, 247,0.3);
+
+}
+
+.navbar-nav.ms-auto{
+	color: white;
+}
+
+section{
+	margin: 0px 50px;
 }
 
 /*Design to all title*/
@@ -39,11 +45,6 @@ body {
 	padding: 30px;
 }
 
-
-/*margin to all section*/
-section{
-	margin:  20px 50px;
-}
 
 /*Footer*/
 footer{
@@ -53,7 +54,7 @@ footer{
 /*Form*/
 
 input, select {
-            width: 200px;
+            width: 500px;
             height: 25px;
             margin: 2px;
 }
